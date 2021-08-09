@@ -24,11 +24,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//@CrossOrigin(origins = "http://www.chumlung.com", maxAge = 3600)
 
 @Controller
 @SuppressWarnings("unchecked")
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://www.hijoaaja.com", maxAge = 3600)
 public class ContactsController {
 
 	@Autowired

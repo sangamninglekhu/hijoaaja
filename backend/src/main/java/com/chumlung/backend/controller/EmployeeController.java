@@ -9,8 +9,8 @@ import com.chumlung.backend.model.User;
 import com.chumlung.backend.service.UserService;
 
 @RestController
-//@CrossOrigin(origins = "http://www.chumlung.com", maxAge = 3600)
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://www.hijoaaja.com", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 public class EmployeeController {
 	
 	@Autowired

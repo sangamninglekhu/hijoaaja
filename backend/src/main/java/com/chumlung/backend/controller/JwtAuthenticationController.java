@@ -25,8 +25,8 @@ import com.chumlung.backend.model.JwtRequest;
 import com.chumlung.backend.model.JwtResponse;
 
 @RestController
-//@CrossOrigin(origins = "http://www.chumlung.com", maxAge = 3600)
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://www.hijoaaja.com", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @SuppressWarnings("unchecked")
 public class JwtAuthenticationController {
 

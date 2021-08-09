@@ -12,8 +12,8 @@ import com.chumlung.backend.model.Category;
 import com.chumlung.backend.service.CategoryService;
 
 @Controller
-//@CrossOrigin(origins = "http://www.chumlung.com", maxAge = 3600)
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://www.hijoaaja.com", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 public class CategoryController {
 	
 	@Autowired

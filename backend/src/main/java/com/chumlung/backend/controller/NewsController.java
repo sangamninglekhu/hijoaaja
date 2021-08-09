@@ -24,8 +24,8 @@ import com.chumlung.backend.service.NewsService;
 
 @Controller
 @SuppressWarnings("unchecked")
-//@CrossOrigin(origins = "http://www.chumlung.com", maxAge = 3600)
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://www.hijoaaja.com", maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 public class NewsController {
 
 	@Autowired
